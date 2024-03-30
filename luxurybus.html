@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BusExplore.id</title>
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/Logo2.png" type="image/icon">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;600;700&family=Rubik:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
+
+  <!-- 
+    - preload images
+  -->
+</head>
+
+<body id="top">
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <h1>
+        <a href="#" class="logo">
+          <img src="assets/images/Logo.png">
+        </a>
+      </h1>
+
+
+      <nav class="navbar" data-navbar>
+
+        <div class="navbar-top">
+          <a href="index.html" class="logo">BusExplore.id</a>
+
+          <button class="nav-close-btn" aria-label="Clsoe menu" data-nav-toggler>
+            <ion-icon name="close-outline"></ion-icon>
+          </button>
+        </div>
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <a href="index.html" class="navbar-link" data-nav-link>
+              <span>Beranda</span>
+
+              <ion-icon name="chevron-forward"></ion-icon>
+            </a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="index.html" class="navbar-link" data-nav-link>
+              <span>Tentang Kami</span>
+
+              <ion-icon name="chevron-forward"></ion-icon>
+            </a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="index.html" class="navbar-link" data-nav-link>
+              <span>Produk dan Layanan</span>
+
+              <ion-icon name="chevron-forward"></ion-icon>
+            </a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="index.html" class="navbar-link" data-nav-link>
+              <span>Berita</span>
+
+              <ion-icon name="chevron-forward"></ion-icon>
+            </a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="index.html" class="navbar-link" data-nav-link>
+              <span>Galeri dan Testimoni</span>
+
+              <ion-icon name="chevron-forward"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </nav>
+
+      <div class="header-contact">
+
+        <div>
+          <p class="contact-label">Hubungi kami</p>
+
+          <a href="tel:12345678910" class="contact-number">+62 844-633-7646</a>
+        </div>
+
+        <div class="contact-icon">
+          <ion-icon name="call-outline"></ion-icon>
+        </div>
+
+      </div>
+      <button class="nav-open-btn" aria-label="Open menu" data-nav-toggler>
+        <ion-icon name="menu-outline"></ion-icon>
+      </button>
+
+      <div class="overlay" data-nav-toggler data-overlay></div>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+      <section class="section hero" aria-label="home" id="home"
+        style="background-image: url('./assets/images/Luxurybus.jpg')">
+        <div class="container">
+
+          <div class="hero-content">
+
+            <h2 class="h1 hero-title">
+              <span class="span">Luxury Bus</span>
+            </h2>
+
+            <hr class="hero-line">
+
+            <p class="hero-text">
+              Dengan menggabungkan kenyamanan, kemewahan, dan layanan yang unggul, penyewaan Luxury Bus memberikan
+              alternatif perjalanan yang istimewa bagi mereka yang menghargai kelas dan gaya dalam setiap perjalanan
+              mereka.
+            </p>
+
+            <img src="./assets/images/hero-shape.png" width="116" height="116" loading="lazy"
+              class="hero-shape shape-1">
+
+            <img src="./assets/images/hero-shape.png" width="116" height="116" loading="lazy"
+              class="hero-shape shape-2">
+
+            <table class="service-table">
+              <tr>
+                <td>
+                  <div class="icon-container">
+                    <img src="assets/images/Seat.png" alt="Icon" class="icon">
+                    <div class="text-container">
+                      <p>Tempat Duduk</p>
+                      <p><strong>48</strong></p>
+                    </div>
+                  </div>
+                </td>
+                <td>
+                  <div class="icon-container">
+                    <img src="assets/images/material-symbols-light_luggage-outline.png" alt="Icon" class="icon">
+                    <div class="text-container">
+                      <p>Bagasi</p>
+                      <p><strong>8</strong></p>
+                    </div>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <div class="icon-container">
+                    <img src="assets/images/transmisi.png" alt="Icon" class="icon">
+                    <div class="text-container">
+                      <p>Transmisi</p>
+                      <p><strong>Manual</strong></p>
+                    </div>
+                  </div>
+                </td>
+                <td>
+                  <div class="icon-container">
+                    <img src="assets/images/Pom.png" alt="Icon" class="icon">
+                    <div class="text-container">
+                      <p>Bahan Bakar</p>
+                      <p><strong>Diesel</strong></p>
+                    </div>
+                  </div>
+                </td>
+              </tr>
+            </table>
+          </div>
+
+        </div>
+      </section>
+
+      <section class="section booking" aria-label="booking" id="booking">
+        <div class="container">
+          <div class="booking-content">
+            <h2 class="h2 booking-title">Pesan Minibus Sekarang</h2>
+
+            <!-- User Input Fields -->
+            <form id="booking-form">
+
+              <label for="pickup-location">Lokasi Penjemputan</label>
+              <!-- Replace the input field with a select dropdown -->
+              <select id="pickup-location" name="pickup-location" required>
+                <option value="location3">Kota Jakarta</option>
+                <option value="location1">Kota Malang</option>
+                <option value="location2">Kota Surabaya</option>
+                <option value="location3">Kota Yogyakarta</option>
+                <option value="location3">Kota Semarang</option>
+                <option value="location3">Kota Bandung</option>
+              </select>
+
+              <label for="departure-date">Tanggal Keberangkatan</label>
+              <input type="date" id="departure-date" name="departure-date" required>
+
+              <label for="stay-duration">Jumlah Hari</label>
+              <input type="number" id="stay-duration" name="stay-duration" min="1" required oninput="calculateTotal()">
+
+              <!-- Display Total Payment below Jumlah Hari -->
+              <h2 id="total-payment-label">Total Pembayaran</h2>
+              <h2 id="total-payment">Rp.<strong>0</strong></h2>
+
+              <button type="button" onclick="pesanSekarang()" class="pesan-sekarang">Pesan Sekarang</button>
+            </form>
+          </div>
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+    <div class="container">
+
+      <div class="footer-top section">
+
+        <div class="footer-brand">
+
+          <a href="#" class="logo">BusExplore.id</a>
+
+          <p class="footer-text">
+            Dapatkan informasi sosial media, alamat email, nomor telepon, jam operasi, dan alamat kantor fisik
+            BusExplore.id
+          </p>
+
+          <ul class="social-list">
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-youtube"></ion-icon>
+              </a>
+            </li>
+
+          </ul>
+
+        </div>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Kontak Kami</p>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">busexplore.id@gmail.com</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">+62 844-633-7646</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Sen-Min 9am-5pm</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Jl. Kemayoran Jakarta Utara No. 2</a>
+          </li>
+
+
+
+        </ul>
+
+
+
+      </div>
+
+      <div class="footer-bottom">
+        <p class="copyright">
+          &copy; 2023 BusExplore.id. All Rights Reserved by <a href="#" class="copyright-link">Vokasi Universitas
+            Brawijaya</a>
+        </p>
+      </div>
+
+    </div>
+  </footer>
+
+
+
+
+
+  <!-- 
+    - #BACK TO TOP
+  -->
+
+  <a href="#top" class="back-top-btn" aria-label="Back to top" data-back-top-btn>
+    <ion-icon name="chevron-up"></ion-icon>
+  </a>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js" defer></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <script>
+    // Define city rates (adjust these rates accordingly)
+    const cityRates = {
+      'location1': 950000, // Kota Malang
+      'location2': 800000, // Kota Surabaya
+      'location3': 900000, // Kota Jakarta, Kota Yogyakarta, Kota Semarang, Kota Bandung
+      'location4': 750000, // Kota Jakarta, Kota Yogyakarta, Kota Semarang, Kota Bandung
+      'location5': 850000, // Kota Jakarta, Kota Yogyakarta, Kota Semarang, Kota Bandung
+      'location6': 920000, // Kota Jakarta, Kota Yogyakarta, Kota Semarang, Kota Bandung
+    };
+
+    // JavaScript function to calculate total payment
+    function calculateTotal() {
+      // Get input values
+      const stayDuration = parseInt(document.getElementById('stay-duration').value);
+      const selectedCity = document.getElementById('pickup-location').value;
+
+      // Retrieve the rate for the selected city (default to 0 if not found)
+      const cityRate = cityRates[selectedCity] || 0;
+
+      // Perform calculations
+      const totalPayment = cityRate * stayDuration;
+
+      // Display total payment
+      document.getElementById('total-payment').innerHTML = `Rp.<strong>${totalPayment}</strong>`;
+    }
+
+    // JavaScript function to handle "Pesan Sekarang" button click
+    function pesanSekarang() {
+      // Get selected city for further processing (if needed)
+      const selectedCity = document.getElementById('pickup-location').value;
+
+      // Add your logic for handling the "Pesan Sekarang" action
+      // For example, redirect to a booking page or show a confirmation message
+      alert(`Booking confirmed for ${selectedCity}!`);
+    }
+  </script>
+</body>
+
+</html>
